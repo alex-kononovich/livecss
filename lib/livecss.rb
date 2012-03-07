@@ -1,0 +1,1 @@
+require 'livecss/railtie.rb' if defined?(Rails)
