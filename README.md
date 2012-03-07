@@ -8,3 +8,8 @@ To start using simply add gem to :development section of your Gemfile
     gem 'livecss'
   end
   
+and then require js file in your application.js
+
+  //= require livecss
+  
+  
