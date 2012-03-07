@@ -12,8 +12,8 @@ Gem::Specification.new do |s|
   s.description = %q{}
 
   s.rubyforge_project = "livecss"
-
-  s.add_dependency "railties", "~> 3.0"
+  s.required_rubygems_version = ">= 1.3.6"
+  s.add_dependency "railties", ">= 3.2.0", "< 5.0"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
