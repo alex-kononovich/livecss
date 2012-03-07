@@ -5,5 +5,3 @@ else
 end
 
 require 'livecss/version'
-
-
